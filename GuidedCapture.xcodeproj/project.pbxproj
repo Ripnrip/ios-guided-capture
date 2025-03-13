@@ -43,6 +43,8 @@
 		70D2F73D2A33A38900EFA0D8 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 70D2F72D2A33A37E00EFA0D8 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 */; };
 		70D2F73E2A33A38900EFA0D8 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 70D2F7322A33A37E00EFA0D8 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 */; };
 		70D2F73F2A33A38900EFA0D8 /* ScanPasses-iPad-FixedHeight-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 70D2F7342A33A37E00EFA0D8 /* ScanPasses-iPad-FixedHeight-1.mp4 */; };
+		848D2DF52D82A5130011EC78 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2DF42D82A5130011EC78 /* SplashViewController.swift */; };
+		848D2DF62D82A5130011EC78 /* EtherealDimensionsSplash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 848D2DF32D82A5130011EC78 /* EtherealDimensionsSplash.mp4 */; };
 		EB20D5602A40331F00992055 /* AppDataModel+Orbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20D55F2A40331F00992055 /* AppDataModel+Orbit.swift */; };
 		EB20D5622A40341C00992055 /* AppDataModel+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20D5612A40341C00992055 /* AppDataModel+State.swift */; };
 		EB20D5652A40363D00992055 /* CaptureOverlayView+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20D5642A40363D00992055 /* CaptureOverlayView+Buttons.swift */; };
@@ -88,6 +90,8 @@
 		70D2F7332A33A37E00EFA0D8 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-unflippable-high.mp4"; sourceTree = "<group>"; };
 		70D2F7342A33A37E00EFA0D8 /* ScanPasses-iPad-FixedHeight-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPad-FixedHeight-1.mp4"; sourceTree = "<group>"; };
 		70D2F7352A33A37E00EFA0D8 /* ScanPasses-iPhone-FixedHeight-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-3.mp4"; sourceTree = "<group>"; };
+		848D2DF32D82A5130011EC78 /* EtherealDimensionsSplash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = EtherealDimensionsSplash.mp4; sourceTree = "<group>"; };
+		848D2DF42D82A5130011EC78 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B63694814766022DF0079B53 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		EB20D55F2A40331F00992055 /* AppDataModel+Orbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataModel+Orbit.swift"; sourceTree = "<group>"; };
 		EB20D5612A40341C00992055 /* AppDataModel+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataModel+State.swift"; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 		70D2F6ED2A339DD500EFA0D8 /* GuidedCapture */ = {
 			isa = PBXGroup;
 			children = (
+				848D2DF32D82A5130011EC78 /* EtherealDimensionsSplash.mp4 */,
+				848D2DF42D82A5130011EC78 /* SplashViewController.swift */,
 				4A3358052B07FB5A00B5603A /* Info.plist */,
 				70D2F72B2A33A34B00EFA0D8 /* Resources */,
 				70D2F6F22A339DD600EFA0D8 /* Assets.xcassets */,
@@ -262,6 +268,7 @@
 				7028C8452A33C1F900381BF1 /* README.md in Resources */,
 				70D2F73B2A33A38900EFA0D8 /* ScanPasses-iPhone-FixedHeight-2.mp4 in Resources */,
 				70D2F73C2A33A38900EFA0D8 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 in Resources */,
+				848D2DF62D82A5130011EC78 /* EtherealDimensionsSplash.mp4 in Resources */,
 				70D2F6F32A339DD600EFA0D8 /* Assets.xcassets in Resources */,
 				70D2F7372A33A38900EFA0D8 /* ScanPasses-iPad-FixedHeight-3.mp4 in Resources */,
 				70D2F7392A33A38900EFA0D8 /* ScanPasses-iPad-FixedHeight-2.mp4 in Resources */,
@@ -297,6 +304,7 @@
 				70D2F7272A339E4A00EFA0D8 /* OnboardingButtonView.swift in Sources */,
 				70D2F7212A339E4A00EFA0D8 /* UntilProcessingCompleteFilter.swift in Sources */,
 				70D2F72A2A339E4A00EFA0D8 /* CapturePrimaryView.swift in Sources */,
+				848D2DF52D82A5130011EC78 /* SplashViewController.swift in Sources */,
 				70D2F7182A339E4A00EFA0D8 /* ModelView.swift in Sources */,
 				70D2F7232A339E4A00EFA0D8 /* OnboardingView.swift in Sources */,
 				70D2F7262A339E4A00EFA0D8 /* FeedbackView.swift in Sources */,
@@ -438,11 +446,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuidedCapture/Preview Content\"";
-				DEVELOPMENT_TEAM = X5J42RJDZY;
+				DEVELOPMENT_TEAM = 5Y7NBCKHJP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GuidedCapture/Info.plist;
@@ -459,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sfomuseum.photogrammety.guidedcapture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etherealdimension.arscanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -479,11 +488,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuidedCapture/Preview Content\"";
-				DEVELOPMENT_TEAM = X5J42RJDZY;
+				DEVELOPMENT_TEAM = 5Y7NBCKHJP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GuidedCapture/Info.plist;
@@ -500,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sfomuseum.photogrammety.guidedcapture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etherealdimension.arscanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = NO;
